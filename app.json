@@ -4,9 +4,9 @@
 		"slug": "emaapp2",
 		"version": "1.0.0",
 		"orientation": "portrait",
-		"icon": "./assets/icon.png",
+		"icon": "./assets/images/EMADragonLogo.png",
 		"splash": {
-			"image": "./assets/splash.png",
+			"image": "./assets/images/Splash-app.png",
 			"resizeMode": "contain",
 			"backgroundColor": "#ffffff"
 		},
@@ -15,7 +15,8 @@
 		},
 		"assetBundlePatterns": ["**/*"],
 		"ios": {
-			"supportsTablet": true
+			"supportsTablet": true,
+			"bundleIdentifier": "net.EMA2.exclusivemartialarts"
 		},
 		"android": {
 			"adaptiveIcon": {
@@ -24,7 +25,7 @@
 			}
 		},
 		"web": {
-			"favicon": "./assets/favicon.png"
+			"favicon": "./assets/images/EMADragonLogo.png"
 		}
 	}
 }
