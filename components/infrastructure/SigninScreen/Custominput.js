@@ -37,9 +37,7 @@ const CustomInput = ({
 						/>
 					</SafeAreaView>
 					{error && (
-						<Text style={{ color: 'red', alignSelf: 'stretch' }}>
-							{error.message || 'ERROR'}
-						</Text>
+						<Text style={styles.error}>{error.message || 'ERROR'}</Text>
 					)}
 				</>
 			)}

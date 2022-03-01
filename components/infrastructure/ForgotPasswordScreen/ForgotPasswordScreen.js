@@ -65,10 +65,6 @@ const styles = StyleSheet.create({
 		color: '#051c60',
 		margin: 10,
 	},
-	text: {
-		color: 'gray',
-		margin: 10,
-	},
 	break: {
 		padding: 16,
 	},

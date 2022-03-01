@@ -84,13 +84,6 @@ const styles = StyleSheet.create({
 		color: '#051c60',
 		margin: 10,
 	},
-	text: {
-		color: 'gray',
-		margin: 10,
-	},
-	link: {
-		color: '#fdb875',
-	},
 	break: {
 		padding: 20,
 	},

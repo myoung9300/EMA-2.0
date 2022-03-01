@@ -3,11 +3,11 @@ import { createBottomTabNavigator } from '@react-navigation/bottom-tabs';
 import Icon from 'react-native-ionicons';
 import { MaterialCommunityIcons } from '@expo/vector-icons';
 
-import ScheduleScreenNavigator from './schedule/';
+import ScheduleScreenNavigator from './schedule/scheduleScreen';
 import ClassScreenNavigator from './classSignUp';
 import StackNavigation from '../stack/Stack';
-import StudentPortal from './studentPortal/';
-import VirtualClass from './virtualKarate/';
+import StudentPortal from './studentPortal/index';
+import VirtualClass from './virtualKarate/index';
 
 const Tab = createBottomTabNavigator();
 
