@@ -33,7 +33,7 @@ const SignInScreen = ({ navigation }) => {
 		setLoading(true);
 		try {
 			const response = await Auth.signIn(data.username, data.password);
-			navigation.navigate('HomeStack');
+			navigation.navigate('Home');
 		} catch (e) {
 			Alert.alert('Oops', e.message);
 		}
