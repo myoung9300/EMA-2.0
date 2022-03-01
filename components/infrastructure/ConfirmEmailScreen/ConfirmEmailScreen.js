@@ -1,5 +1,12 @@
 import React, { useState } from 'react';
-import { View, Text, StyleSheet, ScrollView, Alert } from 'react-native';
+import {
+	View,
+	Text,
+	StyleSheet,
+	ScrollView,
+	Alert,
+	SafeAreaView,
+} from 'react-native';
 import { useRoute } from '@react-navigation/native';
 import { useForm } from 'react-hook-form';
 import { Auth } from 'aws-amplify';
@@ -37,7 +44,7 @@ const ConfirmEmailScreen = ({ navigation }) => {
 
 	return (
 		<ScrollView showsVerticalScrollIndicator={false}>
-			<View style={styles.root}>
+			<SafeAreaView style={styles.root}>
 				<Text style={styles.title}>Confirm Email</Text>
 				<View style={styles.break} />
 				<CustomInput
@@ -66,7 +73,7 @@ const ConfirmEmailScreen = ({ navigation }) => {
 					onPress={onSignInPressed}
 					type='TERTIARY'
 				/>
-			</View>
+			</SafeAreaView>
 		</ScrollView>
 	);
 };
